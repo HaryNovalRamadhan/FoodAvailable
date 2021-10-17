@@ -1,0 +1,61 @@
+@import url(food-menu.css);
+@import url(./main-food.css);
+@import url(./app-bar.css);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    font-size: 18px;
+}
+
+.container{
+    display: grid;
+    gap: 10px;
+}
+
+@media (max-width: 800px){
+    app-bar{
+        grid-template-columns: 1fr;
+    }
+    app-bar h1{
+        display: none;
+    }
+    
+    .subTitle > *{
+        display: block;
+        background-color: rgb(91, 248, 0);
+        color: white;
+        padding: 7px;
+        margin: 5px;
+    }
+   
+    .subTitle{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+   }
+   @media (max-width: 570px){
+    body{
+        margin: 15px;
+    }
+
+    main-food{
+        grid-template-areas: 
+        'food'
+        'food-1'
+        'food-2';
+    }
+
+    .food-1, .food-2{
+        height: 150px;
+    }
+}

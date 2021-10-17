@@ -1,0 +1,38 @@
+app-bar{
+    order: -1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin-bottom: 5px;
+}
+app-bar > h1{
+    font-size: 2em;
+    color: rgb(151, 205, 50);
+}
+search-food {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: flex;
+    background-color: white;
+}
+search-food > input {
+    width: 75%;
+    padding: 16px;
+    border: 0;
+    font-weight: bold;
+}
+search-food >  input::placeholder {
+    color: rgb(151, 205, 50);
+    font-weight: normal;
+    text-align: center;
+}
+search-food > button {
+    width: 23%;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 16px;
+    background-color: rgb(151, 205, 50);
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+}

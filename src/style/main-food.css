@@ -1,0 +1,45 @@
+main-food{
+    display: grid;
+    grid-template-areas: 
+    'food food food-1'
+    'food food food-2';
+    gap: 10px;
+}
+
+.subTitle{
+    grid-area: food;
+    min-height: 300px;
+    background-image: url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+    padding: 50px;
+}
+
+.subTitle > *{
+    display: none;
+}
+
+.food{
+    background-color: black;
+    color: white;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.food-1{
+    background-image: url(https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80);
+    grid-area: food-1;
+    background-size: cover;
+    
+}
+
+.food-2{
+    background-image: url(https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    grid-area: food-2;
+    background-size: cover;
+}
+
+.food > *{
+    font-size: 1.8em;
+    font-weight: 200;
+}
