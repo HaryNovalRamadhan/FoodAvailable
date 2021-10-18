@@ -1,7 +1,7 @@
 <p align="center">
-  <h1 align="center">Zwallet - App that Covering Banking Needs</h1>
+  <h1 align="center">Food Available</h1>
   <a href="https://github.com/HaryNovalRamadhan/FoodAvailable">
-    <img src="./src/mockup/all.png"  alt="mockup">
+    <img src="./src/mockup/all.jpg"  alt="mockup">
   </a>
 </p>
 
