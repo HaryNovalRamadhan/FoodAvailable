@@ -14,9 +14,7 @@
   - [Installation](#installation)
 - [Preview](#preview)
   - [Website Version](#Website-version)
-  - [Tab Version](#tab-version)
-  - [Mobile Version](#mobile-version)
-- [Related Project](#related-project)
+  - [Tab Version And Mobile Version](#tab-version)
 - [Contact](#contact)
 
 <!-- ABOUT THE PROJECT -->
